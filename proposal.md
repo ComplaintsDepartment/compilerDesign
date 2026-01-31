@@ -4,21 +4,18 @@
 - **Name:**
 - **Program:**
 - **Course:** Compiler Design
-- **Semester / Year:**
+- **Semester / Year:** Spring 2026
 
 ## 2. Project Overview
-Provide a brief description of your compiler project (1–2 paragraphs).  
-What problem does it solve? What kind of language are you designing or compiling?
-Include the Programming language you will use to implement the compiler (e.g., C, C++, Java, Python, Rust, etc.)
-
+This project will develop a C code compiler, with an initial implementation in C.
+My particular interests include simultaneous instruction multiple data registers.
+After basic implementation I would like to incorporate both loop unrolling and SIMD optimizations.
 
 ## 3. Source Language
-- **Name of the source code language:**
+C
 
 ## 4. Target / Output Language
-- **Output of the compiler:**  
-  (e.g., LLVM IR, Assembly, C code, Java bytecode, custom VM code, etc.)
-- **Reason for choosing this output language:**
+I would like the output of the compiler to be directly in assembly so that I can more readily confirm the register utilization.
 
 ## 5. Compiler Features (Planned)
 List the features you plan to implement. For example:
@@ -48,3 +45,4 @@ List any tools, frameworks, or libraries you plan to use:
 
 ## 9. Additional Notes
 Any additional comments, assumptions, or ideas related to the project.
+
