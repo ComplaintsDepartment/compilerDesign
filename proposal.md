@@ -7,42 +7,35 @@
 - **Semester / Year:** Spring 2026
 
 ## 2. Project Overview
-This project will develop a C code compiler, with an initial implementation in C.
-My particular interests include simultaneous instruction multiple data registers.
-After basic implementation I would like to incorporate both loop unrolling and SIMD optimizations.
+This project will develop a C code compiler, with an initial implementation in C.  My particular interests include simultaneous instruction multiple data processor registers and fast calculation of large datasets. After basic implementation I would like to incorporate both loop unrolling and SIMD optimizations. My implementation will utilize a limited subset of C syntax and maintain strict typing.
 
 ## 3. Source Language
-C
+I will be utilizing a minimalized C syntax. The items that are important to me is ensuring strict typing and syntax for basic loops, functions, and lines.
 
 ## 4. Target / Output Language
 I would like the output of the compiler to be directly in assembly so that I can more readily confirm the register utilization.
 
 ## 5. Compiler Features (Planned)
-List the features you plan to implement. For example:
-- Lexical analysis
-- Syntax analysis (parser type, if known)
-- Semantic analysis
-- Intermediate representation
-- Optimizations (if any)
-- Code generation
+I plan to implement the following:
+- Lexical analysis - I am going to leverage FLEX to provide the regular expression parsing.
+- Syntax and Semantic analysis - This will begin very basically as rudimentary features and basic operations are implemented.
+- Intermediate representation - I do not have any current plans for intermediate representation unless I determine it to be a necessity as my design matures.
+- Optimizations - I intend to implement loop unrolling as well as SIMD register utilization.
+- Code generation - I hope to output assembly code that can be converted into an ELF file with existing tools.
 
 ## 6. Tools and Libraries
 List any tools, frameworks, or libraries you plan to use:
-- Parser generators (e.g., ANTLR, Bison, Yacc)
-- Build tools
-- Testing frameworks
+- Parser generators - FLEX 
+- Build tools - objcopy
 
 ## 7. Repository Information
-- **Repository hosting service:**  
-  (e.g., GitHub, GitLab, Bitbucket)
-- **Repository URL:**  
-  (Public or private is acceptable)
+  https://github.com/ComplaintsDepartment/compilerDesign
 
 ## 8. Project Status
-- [ ] Repository created
-- [ ] README file added
+- [x] Repository created
+- [x] README file added
 - [ ] Initial project structure committed
 
 ## 9. Additional Notes
-Any additional comments, assumptions, or ideas related to the project.
+
 
